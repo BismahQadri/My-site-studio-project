@@ -1,0 +1,7 @@
+uuid: fe206fa5-e76c-4399-ade0-231627f73152
+langcode: en
+status: true
+dependencies: {  }
+label: 'Accordion tabs'
+id: accordion-tabs
+element: null

@@ -1,0 +1,7 @@
+uuid: 070a9868-c853-47b7-937a-954b941b4530
+langcode: en
+status: true
+dependencies: {  }
+label: Paragraph
+id: paragraph
+element: p

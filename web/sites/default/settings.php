@@ -247,6 +247,8 @@ $databases = [];
  * @see \Drupal\Core\Site\Settings::get()
  */
 
+ $settings['config_sync_directory'] = '../config/sync';
+ 
 /**
  * Salt for one-time login links, cancel links, form tokens, etc.
  *
