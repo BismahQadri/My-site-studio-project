@@ -1,0 +1,26 @@
+uuid: a5bf41a9-f6c7-4cfc-a14e-f10f9f774df6
+langcode: en
+status: true
+dependencies: {  }
+label: secondary-color
+id: secondarycolor
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#ffd19c",
+              "rgba": "rgba(255, 209, 156, 1)"
+          }
+      },
+      "uid": "secondarycolor",
+      "name": "secondary-color",
+      "class": ".coh-color-secondarycolor",
+      "variable": "$coh-color-secondarycolor"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+weight: 11

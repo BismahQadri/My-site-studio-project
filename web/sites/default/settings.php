@@ -867,3 +867,6 @@ if (getenv('IS_DDEV_PROJECT') == 'true' && file_exists(__DIR__ . '/settings.ddev
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+// Config directory for cohesion packages.
+$config_directories['dx8_sync'] = '../config/dx8';
+$settings['site_studio_sync'] = '../config/dx8';
