@@ -1,0 +1,7 @@
+name: 'My Custom Site Studio Module'
+type: module
+description: 'Adds custom functionalities.'
+core_version_requirement: ^10.2.2 || ^11
+package: Custom
+libraries:
+  - site_studio_custom/menu

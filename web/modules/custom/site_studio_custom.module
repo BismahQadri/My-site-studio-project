@@ -1,0 +1,7 @@
+<?php
+/**
+ * Implements hook_page_attachments().
+*/
+function site_studio_custom_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'site_studio_custom/menu';
+}
