@@ -3,10 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - cohesion_custom_styles.cohesion_custom_style.3452905e
     - cohesion_custom_styles.cohesion_custom_style.e749d6f0
+    - cohesion_elements.cohesion_component.cpt_footer
     - cohesion_elements.cohesion_component.cpt_header
-    - cohesion_elements.cohesion_component.cpt_site_footer
+  content:
+    - 'file:file:642ea486-fb38-414f-b70d-cfedb4f3d917'
 label: 'Master template'
 id: master_template
 json_values: |
@@ -52,14 +53,14 @@ json_values: |
               ]
           },
           {
-              "uid": "cpt_site_footer",
+              "uid": "cpt_footer",
               "type": "component",
-              "title": "Site footer",
+              "title": "Footer",
               "enabled": true,
               "category": "category-3",
-              "componentId": "cpt_site_footer",
+              "componentId": "cpt_footer",
               "componentType": "container",
-              "uuid": "a0525d85-a8d2-4188-8381-fceef6f4a32f",
+              "uuid": "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad",
               "parentUid": "root",
               "status": {},
               "children": []
@@ -327,7 +328,8 @@ json_values: |
                   "items": [],
                   "title": "Default"
               }
-          }
+          },
+          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {}
       },
       "model": {
           "0861b8b0-2113-4c8e-a090-0a30cc0b95ec": {},
@@ -392,31 +394,52 @@ json_values: |
                   "title": "Content region"
               }
           },
-          "a0525d85-a8d2-4188-8381-fceef6f4a32f": {
+          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {
+              "8e0aa431-955b-4647-a29a-91da75e06084": "Link",
+              "709a82ec-6db5-44b0-92cc-896212340511": "#",
               "settings": {
-                  "title": "Site footer"
+                  "title": "Footer"
               },
-              "5e8437ec-afc1-49fe-8bbc-0323706449a1": "coh-style-footer-light-theme",
-              "32c0b885-cb2d-48cd-a01f-607b86ac4253": "menu-position-desktop--center",
-              "f9f11fad-85d9-46d9-adc8-7630861fbdac": {
-                  "text": "<p>53 State street, 10th Floor, Boston, MA 02109, 888-922-7842<\/p>\n",
-                  "textFormat": "cohesion"
-              },
-              "edd0c3b4-30a5-446c-bdea-adf60e363ff2": {
-                  "text": "<p>Copyright&nbsp;\u00a9 2020 Acquia, Inc. All Rights Reserved.<\/p>\n",
-                  "textFormat": "cohesion"
-              }
+              "84564824-d913-4cf7-9512-edc89f2b403f": [
+                  {
+                      "8e0aa431-955b-4647-a29a-91da75e06084": "link1",
+                      "709a82ec-6db5-44b0-92cc-896212340511": "#"
+                  },
+                  {
+                      "8e0aa431-955b-4647-a29a-91da75e06084": "link2",
+                      "709a82ec-6db5-44b0-92cc-896212340511": "#"
+                  },
+                  {
+                      "8e0aa431-955b-4647-a29a-91da75e06084": "link3",
+                      "709a82ec-6db5-44b0-92cc-896212340511": "<front>"
+                  },
+                  {
+                      "8e0aa431-955b-4647-a29a-91da75e06084": "link4",
+                      "709a82ec-6db5-44b0-92cc-896212340511": "#"
+                  },
+                  {
+                      "8e0aa431-955b-4647-a29a-91da75e06084": "link5",
+                      "709a82ec-6db5-44b0-92cc-896212340511": "#"
+                  },
+                  {
+                      "8e0aa431-955b-4647-a29a-91da75e06084": "link6",
+                      "709a82ec-6db5-44b0-92cc-896212340511": "#"
+                  }
+              ],
+              "d3d9707d-cc0d-420c-9cde-038d79f7c3b2": "[media-reference:file:642ea486-fb38-414f-b70d-cfedb4f3d917]",
+              "94799a94-355f-4115-b05c-2f6eb05c6c3e": "+9149473202",
+              "8cf51f9f-e1d9-4d2d-954c-c6ac16307254": "#"
           }
       },
       "previewModel": {
           "6fb803be-369a-4786-8a16-e320a93ce4d8": {},
-          "a0525d85-a8d2-4188-8381-fceef6f4a32f": {},
-          "42b34199-5120-406d-b4a3-cf11a0b4a999": {}
+          "42b34199-5120-406d-b4a3-cf11a0b4a999": {},
+          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {}
       },
       "variableFields": {
           "6fb803be-369a-4786-8a16-e320a93ce4d8": [],
-          "a0525d85-a8d2-4188-8381-fceef6f4a32f": [],
-          "42b34199-5120-406d-b4a3-cf11a0b4a999": []
+          "42b34199-5120-406d-b4a3-cf11a0b4a999": [],
+          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": []
       },
       "meta": {
           "fieldHistory": []
