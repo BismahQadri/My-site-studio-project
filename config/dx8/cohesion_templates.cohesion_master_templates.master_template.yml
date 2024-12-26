@@ -6,7 +6,9 @@ dependencies:
     - cohesion_custom_styles.cohesion_custom_style.e749d6f0
     - cohesion_elements.cohesion_component.cpt_footer
     - cohesion_elements.cohesion_component.cpt_header
+    - cohesion_elements.cohesion_component.cpt_hero_
   content:
+    - 'file:file:2d5b38f1-93e0-4d70-ae1c-235eb8f86366'
     - 'file:file:642ea486-fb38-414f-b70d-cfedb4f3d917'
 label: 'Master template'
 id: master_template
@@ -48,6 +50,19 @@ json_values: |
                       },
                       "uuid": "42b34199-5120-406d-b4a3-cf11a0b4a999",
                       "parentUid": "container",
+                      "children": []
+                  },
+                  {
+                      "uid": "cpt_hero_",
+                      "type": "component",
+                      "title": "Hero ",
+                      "enabled": true,
+                      "category": "category-12",
+                      "componentId": "cpt_hero_",
+                      "componentType": "container",
+                      "uuid": "7e0911d6-f781-4076-ae10-0b06419c502a",
+                      "parentUid": "container",
+                      "status": {},
                       "children": []
                   }
               ]
@@ -329,7 +344,8 @@ json_values: |
                   "title": "Default"
               }
           },
-          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {}
+          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {},
+          "7e0911d6-f781-4076-ae10-0b06419c502a": {}
       },
       "model": {
           "0861b8b0-2113-4c8e-a090-0a30cc0b95ec": {},
@@ -394,6 +410,16 @@ json_values: |
                   "title": "Content region"
               }
           },
+          "7e0911d6-f781-4076-ae10-0b06419c502a": {
+              "2640221a-c934-4f28-8659-365ad1bf3c35": "Hero Title",
+              "f720e9a7-d570-46f6-931e-e3c2dddd4bb2": "h1",
+              "2c1733d2-061c-4ad4-8c3c-6495dcdaadb6": true,
+              "settings": {
+                  "title": "Hero "
+              },
+              "f35bfa5d-43ae-492e-b57d-43ab159b35d3": "[media-reference:file:2d5b38f1-93e0-4d70-ae1c-235eb8f86366]",
+              "f7e11937-e3bd-430f-8c9b-eabc0f042ad0": "node::3"
+          },
           "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {
               "8e0aa431-955b-4647-a29a-91da75e06084": "Link",
               "709a82ec-6db5-44b0-92cc-896212340511": "#",
@@ -434,12 +460,14 @@ json_values: |
       "previewModel": {
           "6fb803be-369a-4786-8a16-e320a93ce4d8": {},
           "42b34199-5120-406d-b4a3-cf11a0b4a999": {},
-          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {}
+          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {},
+          "7e0911d6-f781-4076-ae10-0b06419c502a": {}
       },
       "variableFields": {
           "6fb803be-369a-4786-8a16-e320a93ce4d8": [],
           "42b34199-5120-406d-b4a3-cf11a0b4a999": [],
-          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": []
+          "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": [],
+          "7e0911d6-f781-4076-ae10-0b06419c502a": []
       },
       "meta": {
           "fieldHistory": []

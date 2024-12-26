@@ -52,6 +52,8 @@ module:
   search: 0
   serialization: 0
   shortcut: 0
+  site_studio_custom: 0
+  site_studio_webform: 0
   sitestudio_claro: 0
   sitestudio_data_transformers: 0
   sitestudio_governance: 0
@@ -64,9 +66,27 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  webform: 0
+  webform_access: 0
+  webform_attachment: 0
+  webform_image_select: 0
+  webform_node: 0
+  webform_options_custom: 0
+  webform_options_limit: 0
+  webform_scheduled_email: 0
+  webform_schema: 0
+  webform_share: 0
+  webform_shortcuts: 0
+  webform_submission_export_import: 0
+  webform_submission_log: 0
+  webform_templates: 0
+  webform_ui: 0
+  webform_bootstrap: 1
   views: 10
   standard: 1000
 theme:
   olivero: 0
   claro: 0
+  stable: 0
+  cohesion_theme: 0
 profile: standard

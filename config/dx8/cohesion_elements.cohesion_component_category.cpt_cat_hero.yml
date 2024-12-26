@@ -1,0 +1,14 @@
+uuid: bc4389dd-737b-45e5-97cb-c2d72c040db0
+langcode: en
+status: true
+dependencies: {  }
+label: Hero
+id: cpt_cat_hero
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: false
+selectable: true
+class: category-12
+weight: 1001
