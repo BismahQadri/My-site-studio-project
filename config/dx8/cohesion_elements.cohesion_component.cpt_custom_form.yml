@@ -1,0 +1,151 @@
+uuid: 6488d7ce-d0f6-43a5-921b-60a697bf7c6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_forms
+label: 'Custom Form'
+id: cpt_custom_form
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "uuid": "ba053fc4-a29a-434f-a31d-d867d705a5b4",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "container",
+                      "uid": "heading",
+                      "title": "Heading",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "uuid": "af732190-f5ec-430a-97fa-4a5ceb024eee",
+                      "parentUid": "container",
+                      "children": []
+                  }
+              ]
+          }
+      ],
+      "componentForm": [],
+      "mapper": {
+          "ba053fc4-a29a-434f-a31d-d867d705a5b4": {},
+          "af732190-f5ec-430a-97fa-4a5ceb024eee": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "heading-settings",
+                          "children": [
+                              {
+                                  "formKey": "heading-element",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "element",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "heading-heading",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "content",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "heading-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              }
+          }
+      },
+      "model": {
+          "ba053fc4-a29a-434f-a31d-d867d705a5b4": {
+              "settings": {
+                  "width": "fluid"
+              }
+          },
+          "af732190-f5ec-430a-97fa-4a5ceb024eee": {
+              "settings": {
+                  "element": "h1",
+                  "title": "Title",
+                  "customStyle": [
+                      {
+                          "customStyle": ""
+                      }
+                  ],
+                  "content": "[webform:title]"
+              }
+          }
+      },
+      "previewModel": {
+          "af732190-f5ec-430a-97fa-4a5ceb024eee": {
+              "settings": {
+                  "title": "Title",
+                  "element": "h1"
+              }
+          }
+      },
+      "variableFields": {
+          "af732190-f5ec-430a-97fa-4a5ceb024eee": [
+              "settings.content"
+          ]
+      },
+      "disabledNodes": [],
+      "meta": {}
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_forms
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-custom-form
+weight: 0
