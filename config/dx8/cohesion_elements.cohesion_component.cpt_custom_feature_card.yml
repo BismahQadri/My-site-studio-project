@@ -57,7 +57,7 @@ json_values: |
                               "uid": "heading",
                               "title": "Heading",
                               "status": {
-                                  "collapsed": true
+                                  "collapsed": false
                               },
                               "uuid": "0d1a9158-7bd2-435c-80ac-25088c4608ba",
                               "parentUid": "container",
@@ -1015,22 +1015,96 @@ json_values: |
                                       },
                                       {
                                           "name": "line-height",
-                                          "active": true
+                                          "active": false
                                       },
                                       {
                                           "name": "text-align",
-                                          "active": true
+                                          "active": false
                                       },
                                       {
                                           "name": "letter-spacing",
-                                          "active": true
+                                          "active": false
                                       },
                                       {
                                           "name": "word-spacing",
-                                          "active": true
+                                          "active": false
                                       },
                                       {
                                           "name": "text-indent",
+                                          "active": false
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "formKey": "layout",
+                          "children": [
+                              {
+                                  "formKey": "padding",
+                                  "activeFields": [
+                                      {
+                                          "name": "padding-equal",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "padding-top",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "padding-bottom",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "padding-left",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "padding-right",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "padding-block-start",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "padding-block-end",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "padding-inline-start",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "padding-inline-end",
+                                          "active": false
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "formKey": "custom-css",
+                          "children": [
+                              {
+                                  "formKey": "css-property-and-css-value",
+                                  "activeFields": [
+                                      {
+                                          "name": "customCssProperty",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "customCss",
                                           "active": true
                                       }
                                   ],
@@ -1610,7 +1684,39 @@ json_values: |
                       "xl": {
                           "font-size": {
                               "value": "20px"
-                          }
+                          },
+                          "width": {
+                              "value": ""
+                          },
+                          "max-width": {
+                              "value": ""
+                          },
+                          "padding": {
+                              "padding-bottom": {
+                                  "value": "10px"
+                              }
+                          },
+                          "border-style": {},
+                          "border-color": {},
+                          "outline-width": {},
+                          "custom-css": [
+                              {
+                                  "customCssProperty": {
+                                      "value": "width"
+                                  },
+                                  "customCss": {
+                                      "value": "fit-content"
+                                  }
+                              },
+                              {
+                                  "customCssProperty": {
+                                      "value": "border-bottom"
+                                  },
+                                  "customCss": {
+                                      "value": "2px solid rgb(252, 159, 67)"
+                                  }
+                              }
+                          ]
                       }
                   }
               }
