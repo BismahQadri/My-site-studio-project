@@ -35,8 +35,7 @@ json_values: |
                       "uid": "container",
                       "title": "Container",
                       "status": {
-                          "collapsed": true,
-                          "collapsedParents": []
+                          "collapsed": false
                       },
                       "uuid": "a84a034e-e897-4319-b1a8-d39c078bae8f",
                       "parentUid": "container",
@@ -46,10 +45,7 @@ json_values: |
                               "uid": "heading",
                               "title": "Heading",
                               "status": {
-                                  "collapsed": true,
-                                  "collapsedParents": [
-                                      "a84a034e-e897-4319-b1a8-d39c078bae8f"
-                                  ]
+                                  "collapsed": false
                               },
                               "uuid": "fc9e6dc2-27df-4f72-a1db-788dbe80d394",
                               "parentUid": "container",
@@ -60,10 +56,7 @@ json_values: |
                               "uid": "paragraph",
                               "title": "Paragraph",
                               "status": {
-                                  "collapsed": true,
-                                  "collapsedParents": [
-                                      "a84a034e-e897-4319-b1a8-d39c078bae8f"
-                                  ]
+                                  "collapsed": true
                               },
                               "uuid": "c0687733-5cd2-4a35-a33d-eb73627255fb",
                               "parentUid": "container",
@@ -232,8 +225,7 @@ json_values: |
                       "title": "Tab item",
                       "parentIndex": "form-layout",
                       "status": {
-                          "collapsed": true,
-                          "collapsedParents": []
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -279,10 +271,7 @@ json_values: |
                               "title": "Field group",
                               "parentIndex": "form-layout",
                               "status": {
-                                  "collapsed": true,
-                                  "collapsedParents": [
-                                      "f96e2800-ffd2-4aeb-8ffa-9a346940ecd1"
-                                  ]
+                                  "collapsed": false
                               },
                               "options": {
                                   "formBuilder": true
@@ -295,10 +284,7 @@ json_values: |
                                       "uid": "form-colorpicker",
                                       "title": "Color picker",
                                       "status": {
-                                          "collapsed": false,
-                                          "collapsedParents": [
-                                              "f96e2800-ffd2-4aeb-8ffa-9a346940ecd1"
-                                          ]
+                                          "collapsed": false
                                       },
                                       "uuid": "69382081-1243-4687-bbea-18d3ab6f447e",
                                       "parentUid": "form-section",
@@ -310,10 +296,7 @@ json_values: |
                                       "title": "Select",
                                       "parentIndex": "form-fields",
                                       "status": {
-                                          "collapsed": false,
-                                          "collapsedParents": [
-                                              "f96e2800-ffd2-4aeb-8ffa-9a346940ecd1"
-                                          ]
+                                          "collapsed": false
                                       },
                                       "uuid": "3dd8401a-be31-4c68-b1ba-f43cd41ac1e5",
                                       "parentUid": "form-section",
@@ -2899,7 +2882,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "machineName": "card-heading-element",
                   "tooltipPlacement": "auto right",
@@ -3003,7 +2990,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -3090,7 +3081,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -3224,7 +3219,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -3308,7 +3307,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -3388,7 +3391,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -3434,7 +3441,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -3497,36 +3508,16 @@ json_values: |
           "2ef2707f-5a3b-4a39-876c-ca64e4f0fb09": {
               "settings": {
                   "customStyle": [
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
                       {}
                   ]
               },
@@ -3608,19 +3599,19 @@ json_values: |
           "2cff1135-02b1-4168-8b49-204b4da8cfbd": [],
           "4b75dba8-73fb-42bb-bcda-1f6e743666b8": [],
           "2ef2707f-5a3b-4a39-876c-ca64e4f0fb09": [
-              "styles.styles.xl.background-color.value",
+              "styles.d6ced5f5-e121-4a30-8216-4f1dca447c89.styles.xl.border-color.value",
+              "settings.customStyle.0.customStyle",
+              "settings.customStyle.1.customStyle",
               "settings.customStyle.2.customStyle",
               "settings.customStyle.3.customStyle",
-              "styles.d6ced5f5-e121-4a30-8216-4f1dca447c89.styles.xl.border-color.value",
               "settings.customStyle.4.customStyle",
-              "styles.styles.xl.flex-item.flex-grow.value",
               "settings.customStyle.5.customStyle",
               "settings.customStyle.6.customStyle",
               "settings.customStyle.7.customStyle",
               "settings.customStyle.8.customStyle",
               "settings.customStyle.9.customStyle",
-              "settings.customStyle.1.customStyle",
-              "settings.customStyle.0.customStyle"
+              "styles.styles.xl.background-color.value",
+              "styles.styles.xl.flex-item.flex-grow.value"
           ],
           "5cd9d8d3-2f85-487e-9657-1fbc019b14f9": [],
           "780f5238-daa7-439d-a0aa-fc66bc60523d": [],
@@ -3656,6 +3647,7 @@ json_values: |
           "782a95c0-8bd0-4a78-8971-3a257bdf24c8": [],
           "a04de788-2150-4b88-b804-9d426020e82a": []
       },
+      "disabledNodes": [],
       "meta": {
           "fieldHistory": [
               {
