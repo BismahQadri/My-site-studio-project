@@ -8,6 +8,7 @@ dependencies:
     - cohesion_elements.cohesion_component.cpt_footer
     - cohesion_elements.cohesion_component.cpt_header
     - cohesion_elements.cohesion_component.cpt_hero_
+    - cohesion_elements.cohesion_component.cpt_text_highlight
   content:
     - 'file:file:2d5b38f1-93e0-4d70-ae1c-235eb8f86366'
     - 'file:file:642ea486-fb38-414f-b70d-cfedb4f3d917'
@@ -76,6 +77,19 @@ json_values: |
                       "componentId": "cpt_custom_feature_card",
                       "componentType": "container",
                       "uuid": "f6b2f5ec-d418-43fa-9661-d9d508a7bcd5",
+                      "parentUid": "container",
+                      "status": {},
+                      "children": []
+                  },
+                  {
+                      "uid": "cpt_text_highlight",
+                      "type": "component",
+                      "title": "Text Highlight",
+                      "enabled": true,
+                      "category": "category-12",
+                      "componentId": "cpt_text_highlight",
+                      "componentType": "container",
+                      "uuid": "a82f9309-e750-4da4-817c-c0b2c12c2b39",
                       "parentUid": "container",
                       "status": {},
                       "children": []
@@ -361,7 +375,8 @@ json_values: |
           },
           "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {},
           "7e0911d6-f781-4076-ae10-0b06419c502a": {},
-          "f6b2f5ec-d418-43fa-9661-d9d508a7bcd5": {}
+          "f6b2f5ec-d418-43fa-9661-d9d508a7bcd5": {},
+          "a82f9309-e750-4da4-817c-c0b2c12c2b39": {}
       },
       "model": {
           "0861b8b0-2113-4c8e-a090-0a30cc0b95ec": {},
@@ -453,6 +468,16 @@ json_values: |
                   }
               }
           },
+          "a82f9309-e750-4da4-817c-c0b2c12c2b39": {
+              "settings": {
+                  "title": "Text Highlight"
+              },
+              "11aeee7a-e628-4e83-a4a0-e4346c23e86f": "orange-line",
+              "e50618d4-68b7-4785-8d92-7fb274f63763": "no-line",
+              "af765f0c-0764-49ce-aa79-7594a2ee4c12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+              "a571f040-a95c-4bcc-b392-fdb6df3256a6": "Curabitur semper venenatis lectus viverra ex dictumst nulla maximus",
+              "cbf3ecb1-6f7c-47fc-9f27-f6e38dd4d2b4": "Curabitur semper venenatis lectus viverra ex dictumst nulla maximus. Primis iaculis elementum conubia feugiat venenatis dolor augue ac blandit nullam ac phasellus turpis feugiat mollis. Duis lectus porta mattis imperdiet vivamus augue litora lectus arcu. Justo torquent pharetra volutpat ad blandit bibendum accumsan nec elit cras luctus primis ipsum gravida class congue."
+          },
           "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {
               "8e0aa431-955b-4647-a29a-91da75e06084": "Link",
               "709a82ec-6db5-44b0-92cc-896212340511": "#",
@@ -495,14 +520,16 @@ json_values: |
           "42b34199-5120-406d-b4a3-cf11a0b4a999": {},
           "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {},
           "7e0911d6-f781-4076-ae10-0b06419c502a": {},
-          "f6b2f5ec-d418-43fa-9661-d9d508a7bcd5": {}
+          "f6b2f5ec-d418-43fa-9661-d9d508a7bcd5": {},
+          "a82f9309-e750-4da4-817c-c0b2c12c2b39": {}
       },
       "variableFields": {
           "6fb803be-369a-4786-8a16-e320a93ce4d8": [],
           "42b34199-5120-406d-b4a3-cf11a0b4a999": [],
           "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": [],
           "7e0911d6-f781-4076-ae10-0b06419c502a": [],
-          "f6b2f5ec-d418-43fa-9661-d9d508a7bcd5": []
+          "f6b2f5ec-d418-43fa-9661-d9d508a7bcd5": [],
+          "a82f9309-e750-4da4-817c-c0b2c12c2b39": []
       },
       "meta": {
           "fieldHistory": []
