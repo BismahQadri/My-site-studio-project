@@ -16,7 +16,8 @@ json_values: |
       "uid": "primarycolor",
       "name": "primary-color",
       "class": ".coh-color-primarycolor",
-      "variable": "$coh-color-primarycolor"
+      "variable": "$coh-color-primarycolor",
+      "inuse": false
   }
 json_mapper: '{}'
 last_entity_update: entityupdate_0043

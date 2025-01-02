@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 label: secondary-color
 id: secondarycolor
-json_values: '{"link":true,"value":{"value":{"hex":"#ffd19c","rgba":"rgba(255, 209, 156, 1)"}},"uid":"secondarycolor","name":"secondary-color","class":".coh-color-secondarycolor","variable":"$coh-color-secondarycolor"}'
+json_values: '{"link":true,"value":{"value":{"hex":"#ffd19c","rgba":"rgba(255, 209, 156, 1)"}},"uid":"secondarycolor","name":"secondary-color","class":".coh-color-secondarycolor","variable":"$coh-color-secondarycolor","inuse":false}'
 json_mapper: '{}'
 last_entity_update: entityupdate_0043
 locked: false
