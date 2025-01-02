@@ -1,0 +1,26 @@
+uuid: ecac6558-2881-468c-ba93-ff8be8b01036
+langcode: en
+status: true
+dependencies: {  }
+label: light-color
+id: lightcolor
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#cddfd1",
+              "rgba": "rgba(205, 223, 209, 1)"
+          }
+      },
+      "uid": "lightcolor",
+      "name": "light-color",
+      "class": ".coh-color-lightcolor",
+      "variable": "$coh-color-lightcolor"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+weight: 13
