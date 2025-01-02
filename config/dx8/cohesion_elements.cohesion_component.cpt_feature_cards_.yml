@@ -1,0 +1,296 @@
+uuid: 5232b181-d0e5-41f5-9a66-7259108d4218
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_elements.cohesion_component_category.cpt_cat_card_components
+label: 'Feature Cards '
+id: cpt_feature_cards_
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "uuid": "a4eab529-7da5-45b7-99bb-09141ebdef5d",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "container",
+                      "uid": "link",
+                      "title": "Link",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "uuid": "b924c591-84d8-43d6-a17b-2c989bd55721",
+                      "parentUid": "container",
+                      "children": []
+                  },
+                  {
+                      "type": "item",
+                      "uid": "image",
+                      "title": "Image",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "uuid": "2627f8a8-4c04-4298-a9cf-54eb4061d436",
+                      "parentUid": "container",
+                      "children": []
+                  },
+                  {
+                      "type": "container",
+                      "uid": "paragraph",
+                      "title": "Paragraph",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "uuid": "f633f2c6-3a99-44bf-8903-5667beae29e8",
+                      "parentUid": "container",
+                      "children": []
+                  }
+              ]
+          }
+      ],
+      "componentForm": [
+          {
+              "type": "form-container",
+              "uid": "form-tab-container",
+              "title": "Tab container",
+              "status": {
+                  "collapsed": false
+              },
+              "options": {
+                  "formBuilder": true
+              },
+              "uuid": "958448f9-6473-415d-a35e-787d78991fe4",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "form-container",
+                      "uid": "form-tab-item",
+                      "title": "Tab item",
+                      "status": {
+                          "collapsed": false
+                      },
+                      "options": {
+                          "formBuilder": true
+                      },
+                      "uuid": "d80ec2bd-2da4-4bda-8c5c-da50884e639e",
+                      "parentUid": "form-tab-container",
+                      "children": [
+                          {
+                              "type": "form-field",
+                              "uid": "form-image",
+                              "title": "Image uploader",
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "uuid": "c9ded931-84c7-4d5d-85b3-86773051a92a",
+                              "parentUid": "form-tab-item",
+                              "children": []
+                          },
+                          {
+                              "type": "form-field",
+                              "uid": "form-textarea",
+                              "title": "Plain text area",
+                              "translate": true,
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "uuid": "d5636700-c83d-48b8-a94f-45daa9e64913",
+                              "parentUid": "form-tab-item",
+                              "children": []
+                          },
+                          {
+                              "type": "form-field",
+                              "uid": "form-link",
+                              "title": "Link to page",
+                              "translate": true,
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "uuid": "ca9c47dc-d7bb-48ac-90d0-e49307f2c906",
+                              "parentUid": "form-tab-item",
+                              "children": []
+                          }
+                      ]
+                  },
+                  {
+                      "type": "form-container",
+                      "uid": "form-tab-item",
+                      "title": "Tab item",
+                      "status": {
+                          "collapsed": false
+                      },
+                      "options": {
+                          "formBuilder": true
+                      },
+                      "uuid": "6b30a6b3-9e83-404d-a913-ae764bb1e900",
+                      "parentUid": "form-tab-container",
+                      "children": [
+                          {
+                              "type": "form-field",
+                              "uid": "form-colorpicker",
+                              "title": "Color picker",
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "uuid": "557f700a-a69a-49e0-9c67-295908742c37",
+                              "parentUid": "form-tab-item",
+                              "children": []
+                          }
+                      ]
+                  }
+              ]
+          }
+      ],
+      "mapper": {
+          "d80ec2bd-2da4-4bda-8c5c-da50884e639e": {},
+          "c9ded931-84c7-4d5d-85b3-86773051a92a": {},
+          "ca9c47dc-d7bb-48ac-90d0-e49307f2c906": {},
+          "d5636700-c83d-48b8-a94f-45daa9e64913": {},
+          "6b30a6b3-9e83-404d-a913-ae764bb1e900": {},
+          "557f700a-a69a-49e0-9c67-295908742c37": {},
+          "a4eab529-7da5-45b7-99bb-09141ebdef5d": {},
+          "b924c591-84d8-43d6-a17b-2c989bd55721": {},
+          "2627f8a8-4c04-4298-a9cf-54eb4061d436": {},
+          "f633f2c6-3a99-44bf-8903-5667beae29e8": {}
+      },
+      "model": {
+          "a4eab529-7da5-45b7-99bb-09141ebdef5d": {
+              "settings": {
+                  "width": "fluid"
+              }
+          },
+          "2627f8a8-4c04-4298-a9cf-54eb4061d436": {
+              "settings": {
+                  "styles": {
+                      "xl": {
+                          "displaySize": "coh-image-responsive",
+                          "imageAlignment": "coh-image-align-left"
+                      }
+                  }
+              }
+          },
+          "958448f9-6473-415d-a35e-787d78991fe4": {
+              "settings": {
+                  "type": "cohTabContainer",
+                  "title": "Tab container",
+                  "responsiveMode": true
+              }
+          },
+          "d80ec2bd-2da4-4bda-8c5c-da50884e639e": {
+              "settings": {
+                  "type": "cohTabItem",
+                  "title": "Content",
+                  "breakpointIcon": ""
+              }
+          },
+          "c9ded931-84c7-4d5d-85b3-86773051a92a": {
+              "settings": {
+                  "type": "cohFileBrowser",
+                  "options": {
+                      "buttonText": "Select image",
+                      "imageUploader": "false",
+                      "allowedDescription": "Allowed: png, gif, jpg, jpeg \nMax file size: 2MB",
+                      "removeLabel": "Remove"
+                  },
+                  "title": "Card Image",
+                  "isStyle": true,
+                  "defaultActive": true,
+                  "schema": {
+                      "type": "string"
+                  },
+                  "machineName": "card-image",
+                  "tooltipPlacement": "auto right"
+              }
+          },
+          "d5636700-c83d-48b8-a94f-45daa9e64913": {
+              "settings": {
+                  "type": "cohTextarea",
+                  "title": "Card Description",
+                  "schema": {
+                      "type": "string",
+                      "escape": true
+                  },
+                  "machineName": "card-description",
+                  "tooltipPlacement": "auto right"
+              }
+          },
+          "ca9c47dc-d7bb-48ac-90d0-e49307f2c906": {
+              "settings": {
+                  "isStyle": true,
+                  "type": "cohTypeahead",
+                  "key": "linkToPage",
+                  "title": "Card Link",
+                  "placeholder": "Type page name",
+                  "labelProperty": "name",
+                  "valueProperty": "id",
+                  "endpoint": "\/cohesionapi\/link-autocomplete?q=",
+                  "schema": {
+                      "type": "string"
+                  },
+                  "machineName": "card-link",
+                  "tooltipPlacement": "auto right",
+                  "entityTypes": false
+              }
+          },
+          "6b30a6b3-9e83-404d-a913-ae764bb1e900": {
+              "settings": {
+                  "type": "cohTabItem",
+                  "title": "Layout and style",
+                  "breakpointIcon": ""
+              }
+          },
+          "557f700a-a69a-49e0-9c67-295908742c37": {
+              "settings": {
+                  "type": "cohColourPickerOpener",
+                  "title": "Card Background Color",
+                  "colourPickerOptions": {
+                      "flat": true,
+                      "showOnly": ""
+                  },
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "card-background-color",
+                  "restrictBy": "none",
+                  "tooltipPlacement": "auto right"
+              }
+          }
+      },
+      "previewModel": {
+          "d80ec2bd-2da4-4bda-8c5c-da50884e639e": {},
+          "c9ded931-84c7-4d5d-85b3-86773051a92a": {},
+          "ca9c47dc-d7bb-48ac-90d0-e49307f2c906": {},
+          "d5636700-c83d-48b8-a94f-45daa9e64913": {},
+          "6b30a6b3-9e83-404d-a913-ae764bb1e900": {},
+          "557f700a-a69a-49e0-9c67-295908742c37": {}
+      },
+      "variableFields": {
+          "d80ec2bd-2da4-4bda-8c5c-da50884e639e": [],
+          "c9ded931-84c7-4d5d-85b3-86773051a92a": [],
+          "ca9c47dc-d7bb-48ac-90d0-e49307f2c906": [],
+          "d5636700-c83d-48b8-a94f-45daa9e64913": [],
+          "6b30a6b3-9e83-404d-a913-ae764bb1e900": [],
+          "557f700a-a69a-49e0-9c67-295908742c37": []
+      },
+      "disabledNodes": [],
+      "meta": {}
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_card_components
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-feature-cards-
+weight: 0
