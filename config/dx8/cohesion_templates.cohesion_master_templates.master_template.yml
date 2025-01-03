@@ -11,6 +11,7 @@ dependencies:
     - cohesion_elements.cohesion_component.cpt_heading_with_border
     - cohesion_elements.cohesion_component.cpt_hero_
     - cohesion_elements.cohesion_component.cpt_promoted_card
+    - cohesion_elements.cohesion_component.cpt_stretch_cards
     - cohesion_elements.cohesion_component.cpt_text_highlight
     - cohesion_website_settings.cohesion_color.lightcolor
   content:
@@ -133,6 +134,19 @@ json_values: |
                       "componentId": "cpt_promoted_card",
                       "componentType": "container",
                       "uuid": "ea8e7d4f-4e04-4779-867b-29c22f81cc35",
+                      "parentUid": "container",
+                      "status": {},
+                      "children": []
+                  },
+                  {
+                      "uid": "cpt_stretch_cards",
+                      "type": "component",
+                      "title": "Stretch Cards",
+                      "enabled": true,
+                      "category": "category-2",
+                      "componentId": "cpt_stretch_cards",
+                      "componentType": "container",
+                      "uuid": "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a",
                       "parentUid": "container",
                       "status": {},
                       "children": []
@@ -422,7 +436,8 @@ json_values: |
           "a82f9309-e750-4da4-817c-c0b2c12c2b39": {},
           "9602a462-4208-4e7c-8151-dc514e3a2c0a": {},
           "ea8e7d4f-4e04-4779-867b-29c22f81cc35": {},
-          "6e8d3487-05d8-4117-8443-ef9e7bb6d696": {}
+          "6e8d3487-05d8-4117-8443-ef9e7bb6d696": {},
+          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": {}
       },
       "model": {
           "0861b8b0-2113-4c8e-a090-0a30cc0b95ec": {},
@@ -572,6 +587,29 @@ json_values: |
                   "variable": "$coh-color-lightcolor"
               }
           },
+          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": {
+              "c0461693-6516-430c-ad67-8afa161902a9": "Curabitur semper venenatis lectus viverra",
+              "066bdd2c-3a2f-4344-9501-be1673d5f80d": "Vehicula etiam elementum finibus",
+              "6b3be505-ca59-49d1-b41a-b0cb35b9a37e": "Lorem ipsum dolor sit amet,",
+              "a97cefa6-ea4a-470c-8bcc-2a9cf6cc1e57": "Vehicula etiam elementum finibus enim duis feugiat commodo adipiscing tortor tempor elit. Et mollis consectetur habitant turpis tortor consectetur adipiscing vulputate dolor lectus iaculis convallis adipiscing. Nam hendrerit dignissim condimentum ullamc",
+              "80e64cea-2fbb-4b2e-af72-b4333bb49fd3": "[media-reference:file:ecddb71d-ef93-4b76-b756-e178e48e265e]",
+              "417be1a8-c396-4f2d-b8be-1e0db7e6e891": "[media-reference:file:ecddb71d-ef93-4b76-b756-e178e48e265e]",
+              "d3caee01-634e-4d72-b4b3-5b2a4fd7f123": "",
+              "e94fa5c8-d25e-4140-81af-f3a8e277bec5": {
+                  "link": true,
+                  "value": {
+                      "hex": "#cddfd1",
+                      "rgba": "rgba(205, 223, 209, 1)"
+                  },
+                  "uid": "lightcolor",
+                  "name": "light-color",
+                  "class": ".coh-color-lightcolor",
+                  "variable": "$coh-color-lightcolor"
+              },
+              "settings": {
+                  "title": "Stretch Cards"
+              }
+          },
           "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {
               "8e0aa431-955b-4647-a29a-91da75e06084": "Link",
               "709a82ec-6db5-44b0-92cc-896212340511": "#",
@@ -618,7 +656,8 @@ json_values: |
           "a82f9309-e750-4da4-817c-c0b2c12c2b39": {},
           "9602a462-4208-4e7c-8151-dc514e3a2c0a": {},
           "ea8e7d4f-4e04-4779-867b-29c22f81cc35": {},
-          "6e8d3487-05d8-4117-8443-ef9e7bb6d696": {}
+          "6e8d3487-05d8-4117-8443-ef9e7bb6d696": {},
+          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": {}
       },
       "variableFields": {
           "6fb803be-369a-4786-8a16-e320a93ce4d8": [],
@@ -629,7 +668,8 @@ json_values: |
           "a82f9309-e750-4da4-817c-c0b2c12c2b39": [],
           "9602a462-4208-4e7c-8151-dc514e3a2c0a": [],
           "ea8e7d4f-4e04-4779-867b-29c22f81cc35": [],
-          "6e8d3487-05d8-4117-8443-ef9e7bb6d696": []
+          "6e8d3487-05d8-4117-8443-ef9e7bb6d696": [],
+          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": []
       },
       "meta": {
           "fieldHistory": []
