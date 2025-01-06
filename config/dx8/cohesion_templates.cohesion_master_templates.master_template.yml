@@ -11,6 +11,7 @@ dependencies:
     - cohesion_elements.cohesion_component.cpt_heading_with_border
     - cohesion_elements.cohesion_component.cpt_hero_
     - cohesion_elements.cohesion_component.cpt_promoted_card
+    - cohesion_elements.cohesion_component.cpt_recipe_container
     - cohesion_elements.cohesion_component.cpt_stretch_cards
     - cohesion_elements.cohesion_component.cpt_text_highlight
     - cohesion_website_settings.cohesion_color.lightcolor
@@ -147,6 +148,19 @@ json_values: |
                       "componentId": "cpt_stretch_cards",
                       "componentType": "container",
                       "uuid": "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a",
+                      "parentUid": "container",
+                      "status": {},
+                      "children": []
+                  },
+                  {
+                      "uid": "cpt_recipe_container",
+                      "type": "component",
+                      "title": "Recipe Container",
+                      "enabled": true,
+                      "category": "category-3",
+                      "componentId": "cpt_recipe_container",
+                      "componentType": "slider-container",
+                      "uuid": "e0eab99a-1c00-40c7-af98-2d89a9c44645",
                       "parentUid": "container",
                       "status": {},
                       "children": []
@@ -437,7 +451,8 @@ json_values: |
           "9602a462-4208-4e7c-8151-dc514e3a2c0a": {},
           "ea8e7d4f-4e04-4779-867b-29c22f81cc35": {},
           "6e8d3487-05d8-4117-8443-ef9e7bb6d696": {},
-          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": {}
+          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": {},
+          "e0eab99a-1c00-40c7-af98-2d89a9c44645": {}
       },
       "model": {
           "0861b8b0-2113-4c8e-a090-0a30cc0b95ec": {},
@@ -610,6 +625,38 @@ json_values: |
                   "title": "Stretch Cards"
               }
           },
+          "e0eab99a-1c00-40c7-af98-2d89a9c44645": {
+              "settings": {
+                  "title": "Recipe Container"
+              },
+              "e3f1b63f-7dec-4ba3-bba7-1a5cd64129cd": [
+                  {
+                      "12ea925b-ce8f-4ffd-bc75-f3b36fd3b215": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                      "ba8248b7-08dc-4f81-b0d8-74e25e050bb4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.",
+                      "3dbb5739-b7e3-4a4d-a8a1-b3f382e4af76": "<front>",
+                      "bf353d7e-9c05-45bd-9ab7-8864ee7eff49": "CTA1",
+                      "108017aa-e53e-4ac6-ba17-b792f41f655c": "[media-reference:file:ecddb71d-ef93-4b76-b756-e178e48e265e]"
+                  },
+                  {
+                      "ba8248b7-08dc-4f81-b0d8-74e25e050bb4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.",
+                      "12ea925b-ce8f-4ffd-bc75-f3b36fd3b215": "Title 2",
+                      "3dbb5739-b7e3-4a4d-a8a1-b3f382e4af76": "<front>",
+                      "bf353d7e-9c05-45bd-9ab7-8864ee7eff49": "CTA2"
+                  },
+                  {
+                      "12ea925b-ce8f-4ffd-bc75-f3b36fd3b215": "Title 3",
+                      "ba8248b7-08dc-4f81-b0d8-74e25e050bb4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin tortor purus platea sit eu id nisi litora libero. Neque vulputate consequat ac amet augue blandit maximus aliquet congue. Pharetra vestibulum posuere ornare faucibus fusce dictumst orci aenean eu facilisis ut volutpat commodo senectus purus himenaeos fames primis convallis nisi.",
+                      "3dbb5739-b7e3-4a4d-a8a1-b3f382e4af76": "<front>",
+                      "bf353d7e-9c05-45bd-9ab7-8864ee7eff49": "CTA3"
+                  },
+                  {
+                      "12ea925b-ce8f-4ffd-bc75-f3b36fd3b215": "Title 4",
+                      "ba8248b7-08dc-4f81-b0d8-74e25e050bb4": "Curabitur semper venenatis lectus viverra ex dictumst nulla maximus. Primis iaculis elementum conubia feugiat venenatis dolor augue ac blandit nullam ac phasellus turpis feugiat mollis. Duis lectus porta mattis imperdiet vivamus augue litora lectus arcu. Justo torquent pharetra volutpat ad blandit bibendum accumsan nec elit cras luctus primis ipsum gravida class congue. Curabitur semper venenatis lectus viverra ex dictumst nulla maximus. Primis iaculis elementum conubia feugiat venenatis dolor augue ac blandit nullam ac phasellus turpis feugiat mollis. Duis lectus porta mattis imperdiet vivamus augue litora lectus arcu. Justo torquent pharetra volutpat ad blandit bibendum accumsan nec elit cras luctus primis ipsum gravida class congue.",
+                      "3dbb5739-b7e3-4a4d-a8a1-b3f382e4af76": "<front>",
+                      "bf353d7e-9c05-45bd-9ab7-8864ee7eff49": "CTA4"
+                  }
+              ]
+          },
           "14e63dbb-8ca8-4419-b9be-8cd8875fe9ad": {
               "8e0aa431-955b-4647-a29a-91da75e06084": "Link",
               "709a82ec-6db5-44b0-92cc-896212340511": "#",
@@ -657,7 +704,8 @@ json_values: |
           "9602a462-4208-4e7c-8151-dc514e3a2c0a": {},
           "ea8e7d4f-4e04-4779-867b-29c22f81cc35": {},
           "6e8d3487-05d8-4117-8443-ef9e7bb6d696": {},
-          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": {}
+          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": {},
+          "e0eab99a-1c00-40c7-af98-2d89a9c44645": {}
       },
       "variableFields": {
           "6fb803be-369a-4786-8a16-e320a93ce4d8": [],
@@ -669,7 +717,8 @@ json_values: |
           "9602a462-4208-4e7c-8151-dc514e3a2c0a": [],
           "ea8e7d4f-4e04-4779-867b-29c22f81cc35": [],
           "6e8d3487-05d8-4117-8443-ef9e7bb6d696": [],
-          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": []
+          "4ee74c69-628f-4fd7-8a0d-0ecfff5d2c8a": [],
+          "e0eab99a-1c00-40c7-af98-2d89a9c44645": []
       },
       "meta": {
           "fieldHistory": []

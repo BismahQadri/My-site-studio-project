@@ -1,0 +1,14 @@
+uuid: a210f38c-f7ff-48aa-9f7f-6b1e7b008134
+langcode: en
+status: true
+dependencies: {  }
+label: 'Recipes Slider'
+id: view_tpl_recipes_slider
+json_values: '{"canvas":[{"type":"container","uid":"drupal-view","title":"View container","status":{"collapsed":false},"uuid":"ff962277-d229-495e-ac45-bc0310a848a4","parentUid":"root","children":[{"type":"container","uid":"drupal-view-contents","title":"View content","status":{"collapsed":false},"uuid":"5df4f1ac-8c19-4391-8837-b5ade00bc9a2","parentUid":"drupal-view","children":[{"type":"container","uid":"pattern-repeater","title":"Pattern repeater","mimicParent":true,"status":{"collapsed":false},"uuid":"91ab6896-6834-45e1-bc3e-8b653b32d650","parentUid":"drupal-view-contents","children":[{"type":"container","uid":"slider-container","title":"Slider container","status":{"collapsed":false},"uuid":"f1b80a5a-d9fe-4c51-b34a-f67919f2019a","parentUid":"pattern-repeater","children":[{"type":"container","uid":"slide","title":"Slide","status":{"collapsed":false},"uuid":"ccab03fb-3174-4a2d-b379-1a5347c23acd","parentUid":"slider-container","children":[{"type":"item","uid":"drupal-view-item","title":"View item","status":{"collapsed":true},"uuid":"01e990d4-b0f2-4821-ad45-dcfc80ddca61","parentUid":"slide","children":[]}]}]}]}]}]}],"mapper":{"ff962277-d229-495e-ac45-bc0310a848a4":{},"5df4f1ac-8c19-4391-8837-b5ade00bc9a2":{},"91ab6896-6834-45e1-bc3e-8b653b32d650":{},"01e990d4-b0f2-4821-ad45-dcfc80ddca61":{},"f1b80a5a-d9fe-4c51-b34a-f67919f2019a":{},"ccab03fb-3174-4a2d-b379-1a5347c23acd":{}},"model":{"f1b80a5a-d9fe-4c51-b34a-f67919f2019a":{"settings":{"containerWidth":"fluid","styles":{"xl":{"bleed":"retain","overflowVisibility":"hidden","slideContainerHeight":"tallestSlide","matchHeights":{"target":"none"},"showNavigation":true,"showPagination":true,"enableDrag":true,"enableSwipe":true,"transitionDirection":"leftRight","transitionLoop":"loop","transitionSpeed":700,"easing":"ease","autoplay":false,"navigationPositionOutside":false,"navigationPositionInsideClass":"coh-slider-container-nav-inside-top-left-right","paginationPositionOutside":false,"paginationPositionInsideClass":"coh-slider-container-pager-inside-bottom-middle","navigationPositionOutsideClass":"coh-slider-container-nav-outside-top-left-right","paginationPositionOutsideClass":"coh-slider-container-pager-outside-bottom-middle","easingStepsTiming":"start","autoplayPauseOnHover":"slide-and-pagination"}},"paginationNumbers":true}}},"previewModel":{},"variableFields":{},"meta":{}}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+custom: true
+twig_template: views-view--cohesion-view-tpl-recipes-slider
