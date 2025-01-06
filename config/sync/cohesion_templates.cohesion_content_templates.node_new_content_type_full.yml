@@ -1,0 +1,18 @@
+uuid: 1868919c-2673-4dbc-9bfe-5c19d3457d2f
+langcode: en
+status: false
+dependencies: {  }
+label: 'Full content (Node, New Content Type)'
+id: node_new_content_type_full
+json_values: '{"canvas":[],"mapper":null,"model":[]}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+modified: false
+selectable: false
+custom: false
+twig_template: null
+default: false
+entity_type: node
+bundle: new_content_type
+view_mode: full
+master_template: ''
